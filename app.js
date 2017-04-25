@@ -15,13 +15,17 @@ var text = 'KHH5224';
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
-		    console.log(event.message.text);
 		    var bus =data.busgetdata(busID,(data) => {
+		    	var num = -1;
 				for (var i = 0; i < data.length; i++) {
-		    		console.log(data[i][1]==event.message.text);
-					if (data[i][1]==event.message.text) {
-		    			event.reply(data[i][0] + "\r\n" + data[i][1]);
+					if (data[i][1] == event.message.text) {
+						num = i;
 					}
+				}
+				if(num != -1){
+		    		event.reply(data[num][0] + "\r\n" + data[num][1] + "\r\n" + data[num][2]);
+				}else{
+		    		event.reply("not found:404");
 				}
 		    });
 			break;

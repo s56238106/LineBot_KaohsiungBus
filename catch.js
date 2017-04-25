@@ -9,8 +9,9 @@ const busgetdata = (plate,callback) => {
 	 	    		var aa = [];
 	 	    		for (var i = 0; i < bb.length; i++) {
 	 	    			aa[i]=[];
-	 	    			aa[i][0]=bb[i].EstimateTime;
+	 	    			aa[i][0]=bb[i].StopName.Zh_tw;
 	 	    			aa[i][1]=bb[i].StopUID;
+	 	    			aa[i][2]=bb[i].EstimateTime;
 	 	    			
 	 	    		}
 	 	    		callback(aa);
