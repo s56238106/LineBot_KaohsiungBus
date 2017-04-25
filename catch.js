@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 var request = require('request');
 
 const busgetdata = (plate,callback) => {
@@ -7,7 +8,7 @@ const busgetdata = (plate,callback) => {
 	 	    		callback(body[0]);
 	  		}
 	});
-}
+};
 
 
 

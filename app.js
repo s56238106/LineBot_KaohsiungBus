@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const linebot = require('linebot');
 
 const bot = linebot({
