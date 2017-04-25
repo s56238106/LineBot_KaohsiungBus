@@ -8,24 +8,20 @@ const bot = linebot({
 	channelSecret: 'ada6218baf7780aea777e87de0b5c093',
 	channelAccessToken: 'HgmqnvzXuSTtXjB/3yiI0TRFOD2JWImFRFhHavnhGvBLfTeDzBdEREYYWb+oT8zsTfxIBvP4JHHT8kQP853zcJ870pGvKDyKc+zi4cd3ebkitUY8xUa9dkFpIjDjvdNXO5AfquvILjUZ2FLxSluXrwdB04t89/1O/w1cDnyilFU='
 });
+var busID = '127-FT';
+var text = 'KHH5224';
 
-//CATCH DATA
-var bus = data.busgetdata('127-FT',(data) => {
-	for (var i = 0; i < data.length; i++) {
-		for (var j = 0; j < data[i].length; j++) {
-			if (data[i][j]=='KHH5224') {
-				console.log(data[i]);
-			}
-		}
-		
-	}
-});
 
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
-		    //event.reply('Unknow message: ' + JSON.stringify(event));
-		    event.reply('Unknow message: ' + event.message.text);
+		    var bus =data.busgetdata(busID,(data) => {
+				for (var i = 0; i < data.length; i++) {
+					if (data[i][1]==event.message.text) {
+		    			event.reply(data[i][0] + "\r\n" + data[i][1]);
+					}
+				}
+		    });
 			break;
     }
 });
