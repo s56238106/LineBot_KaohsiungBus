@@ -9,11 +9,11 @@ const bot = linebot({
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
-		    console.log(event.message.text);
+		    event.reply('Unknow message: ' + JSON.stringify(event));
 			break;
     }
 });
 
-bot.listen('/linewebhook', process.env.PORT || 80, function () {
+bot.listen('/linewebhook', 3001, function () {
 	console.log('LineBot is running.');
 });
