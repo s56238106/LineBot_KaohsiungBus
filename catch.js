@@ -18,4 +18,16 @@ const busgetdata = (plate,callback) => {
 	  		}
 	});
 };
+
+const BusGetTime = (busID, stopUID, callback) => {
+   request('http://ptx.transportdata.tw/MOTC/v2/Bus/EstimatedTimeOfArrival/City/Kaohsiung?$filter=((PlateNumb%20eq%20%27' + busID + '%27)%20and%20(StopUID%20eq%20%27' + stopUID + '%27))&$format=JSON', 
+		(error, response, body) => {
+	  		if (!error && response.statusCode == 200) {
+	  			var data = JSON.parse(body);
+	 	    	callback(data[0].EstimateTime);
+	  		}
+	});
+};
+
 exports.busgetdata=busgetdata;
+exports.BusGetTime=BusGetTime;
