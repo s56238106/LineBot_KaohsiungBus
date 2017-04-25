@@ -14,6 +14,6 @@ bot.on('message', function (event) {
     }
 });
 
-bot.listen('/linewebhook', 3001, function () {
+bot.listen('/linewebhook', process.env.PORT || 80, function () {
 	console.log('LineBot is running.');
 });
