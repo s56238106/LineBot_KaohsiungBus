@@ -17,9 +17,4 @@ const busgetdata = (plate,callback) => {
 	  		}
 	});
 };
-
-
-
-
-
 exports.busgetdata=busgetdata;
