@@ -15,8 +15,10 @@ var text = 'KHH5224';
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
+		    console.log(event.message.text);
 		    var bus =data.busgetdata(busID,(data) => {
 				for (var i = 0; i < data.length; i++) {
+		    		console.log(data[i][1]==event.message.text);
 					if (data[i][1]==event.message.text) {
 		    			event.reply(data[i][0] + "\r\n" + data[i][1]);
 					}
