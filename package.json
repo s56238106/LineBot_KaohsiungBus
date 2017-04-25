@@ -6,6 +6,5 @@
   "dependencies": {
     "linebot": "~1.3.0",
     "request": "~2.81.0",
-    "node-fs": "~0.1.7"
   }
 }

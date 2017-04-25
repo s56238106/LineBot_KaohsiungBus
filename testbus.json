@@ -1,0 +1,650 @@
+[
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5446",
+    "StopID": "5446",
+    "StopName": {
+      "Zh_tw": "加昌路口(捷運後勁站)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 240,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T23:46:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5451",
+    "StopID": "5451",
+    "StopName": {
+      "Zh_tw": "海科大"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 300,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T23:47:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5219",
+    "StopID": "5219",
+    "StopName": {
+      "Zh_tw": "海專路口"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 420,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T23:49:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5220",
+    "StopID": "5220",
+    "StopName": {
+      "Zh_tw": "加工區北門"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 480,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T23:49:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5224",
+    "StopID": "5224",
+    "StopName": {
+      "Zh_tw": "彩虹城"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 540,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T23:51:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5225",
+    "StopID": "5225",
+    "StopName": {
+      "Zh_tw": "德民路(外環西路口)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 600,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T23:52:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4697",
+    "StopID": "4697",
+    "StopName": {
+      "Zh_tw": "壽民路"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1200,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:01:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4702",
+    "StopID": "4702",
+    "StopName": {
+      "Zh_tw": "加昌國小"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1260,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:02:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4765",
+    "StopID": "4765",
+    "StopName": {
+      "Zh_tw": "亞洲托兒所"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1260,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:03:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4561",
+    "StopID": "4561",
+    "StopName": {
+      "Zh_tw": "加宏路"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1320,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:04:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4768",
+    "StopID": "4768",
+    "StopName": {
+      "Zh_tw": "加宏路口"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1440,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:05:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4769",
+    "StopID": "4769",
+    "StopName": {
+      "Zh_tw": "慈愛大樓"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1440,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:06:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4774",
+    "StopID": "4774",
+    "StopName": {
+      "Zh_tw": "莒光國小"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1500,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:07:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4775",
+    "StopID": "4775",
+    "StopName": {
+      "Zh_tw": "莒光新村(後昌路)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1560,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:08:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH4780",
+    "StopID": "4780",
+    "StopName": {
+      "Zh_tw": "後昌路"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1620,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:08:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3373",
+    "StopID": "3373",
+    "StopName": {
+      "Zh_tw": "煉油廠(捷運世運站)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1740,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:10:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3317",
+    "StopID": "3317",
+    "StopName": {
+      "Zh_tw": "捷運世運站(左楠路)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1740,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:11:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3385",
+    "StopID": "3385",
+    "StopName": {
+      "Zh_tw": "祥和山莊"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1800,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:11:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3387",
+    "StopID": "3387",
+    "StopName": {
+      "Zh_tw": "復興新村"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1800,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:12:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3392",
+    "StopID": "3392",
+    "StopName": {
+      "Zh_tw": "半屏山(左營大路)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1860,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:12:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3511",
+    "StopID": "3511",
+    "StopName": {
+      "Zh_tw": "菜公路口(左營大路)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1860,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:13:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5889",
+    "StopID": "5889",
+    "StopName": {
+      "Zh_tw": "豐穀宮(進學路口)"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1920,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:14:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3394",
+    "StopID": "3394",
+    "StopName": {
+      "Zh_tw": "左營市場"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 1980,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:15:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3419",
+    "StopID": "3419",
+    "StopName": {
+      "Zh_tw": "左營大路"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 2040,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:16:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3420",
+    "StopID": "3420",
+    "StopName": {
+      "Zh_tw": "店仔頂路口"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 2100,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:16:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH3445",
+    "StopID": "3445",
+    "StopName": {
+      "Zh_tw": "左營農會"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 2160,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:17:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  },
+  {
+    "PlateNumb": "139-FT",
+    "StopUID": "KHH5405",
+    "StopID": "5405",
+    "StopName": {
+      "Zh_tw": "左營南站"
+    },
+    "RouteUID": "KHH6",
+    "RouteID": "6",
+    "RouteName": {
+      "Zh_tw": "6"
+    },
+    "SubRouteUID": "KHH6",
+    "SubRouteID": "6",
+    "SubRouteName": {
+      "Zh_tw": "6"
+    },
+    "Direction": 1,
+    "EstimateTime": 2220,
+    "MessageType": 0,
+    "NextBusTime": "2017-04-25T00:18:00+08:00",
+    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
+    "UpdateTime": "2017-04-25T23:29:21+08:00"
+  }
+]
