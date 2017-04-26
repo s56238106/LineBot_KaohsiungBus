@@ -17,17 +17,16 @@ var stopUID = "";
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
-                template.Template(busID, (BusData) => {
+                template.Template(event.message.text, (BusData) => {
                     event.reply(BusData);
                 });
 			break;
     }
 });
 
-/*bot.on('postback', function(event){
-    console.log(event.postback.data);
-    stopUID = event.postback.data;
-});*/
+bot.on('postback', function (event) {
+	event.reply('postback: ' + event.postback.data);
+});
 
 bot.listen('/linewebhook', process.env.PORT || 80, function () {
 	console.log('LineBot is running.');
