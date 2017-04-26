@@ -17,7 +17,9 @@ var stopUID = "";
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
+                	console.log("test");
                 template.Template(busID, (BusData) => {
+                	console.log("BusData");
                 	console.log(BusData);
                     event.reply(BusData);
                 });
