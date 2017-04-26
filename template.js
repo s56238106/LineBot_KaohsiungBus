@@ -41,7 +41,7 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 			three_data[2][1]="";
 			three_data[2][2]="";
 			Actions(three_data, ActionsData, (BusData) => {
-				callback(data);
+				callback(BusData);
 			});
 			//template_all(data,i);
 			break;
@@ -90,16 +90,15 @@ const Template = (BusId, callback) => {
 	stopdata.busgetdata(BusId, (data) => {
 		ActionsAll(data, 0, ActionsData, (BusData) => {
 			callback(BusData);
-			console.log(BusData);
 		});
 	});
 };
 
-
-//var BusId = '139-FT';
 exports.Template=Template;
 
-/*Template(BusId, (data) => {
+/*var BusId = '137-FT';
+
+Template(BusId, (data) => {
 	console.log(data);
 });*/
 

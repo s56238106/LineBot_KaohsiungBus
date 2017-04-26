@@ -17,10 +17,10 @@ var stopUID = "";
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
-            template.Template(busID, (BusData) => {
-                console.log(BusData);
-            });
-            event.reply("BusData");
+                template.Template(busID, (BusData) => {
+                    console.log(BusData);
+                    event.reply(BusData);
+                });
 		  /*  var bus =data.busgetdata(busID,(data) => {
 				var num = -1;
 				for (var i = 0; i < data.length; i++) {
