@@ -29,11 +29,8 @@ bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
 				busID = event.message.text;
-				console.log(busID);
                 template.Template(busID, (BusData) => {
-                    event.reply(BusData);
-                    console.log(busID);
-					console.log(BusData);
+                    event.reply(JSON.stringify(BusData));
                 });
 			break;
     }
