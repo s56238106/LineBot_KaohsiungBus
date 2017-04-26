@@ -12,11 +12,10 @@ var OneTemplate = JSON.stringify({
 
 //丟DATA進ACTION
 const Actions = (data, ActionsData, callback) =>{
-                	console.log("4");
 	var one_template_temp = JSON.parse(OneTemplate);
 	for(var i=0 ; i<data.length ; i++){
 		one_template_temp.actions.push(
-			{type : 'postback' ,label : data[i][0] + '(剩下' + data[i][2] + '分)',data : data[i][1]}
+			{type : 'postback' ,label : data[i][0] + '(剩下' + data[i][2] + '秒)',data : data[i][1]}
 		);
 	}
 	ActionsData.template.columns.push(one_template_temp);
@@ -26,7 +25,6 @@ const Actions = (data, ActionsData, callback) =>{
 
 //資料比數邏輯判斷
 const ActionsAll = (data, num, ActionsData, callback) =>{
-                	console.log("3");
 	var three_data = [];
 	for (var i = num; i < data.length; i++) {
 		if ((i%12==0) && (i!=num)) {
@@ -81,8 +79,6 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 
 //線上測試
 const Template = (BusId, callback) => {
-
-                	console.log("1");
 	var ActionsData = {
 		"type": "template",
 		"altText": "this is a carousel template",
@@ -93,7 +89,6 @@ const Template = (BusId, callback) => {
 	};
 	stopdata.busgetdata(BusId, (data) => {
 		ActionsAll(data, 0, ActionsData, (BusData) => {
-                	console.log("2");
 			callback(BusData);
 		});
 	});
