@@ -20,7 +20,9 @@ var stopUID = "";
 var rule = new schedule.RecurrenceRule();
 rule.second = 0;
 schedule.scheduleJob(rule, function(){
-	TimingRemind.TimingRemind(busID,stopUID);
+	if(busID!= '' && stopUID!=''){
+		TimingRemind.TimingRemind(busID,stopUID);
+	}
 });
 //bot action
 bot.on('message', function (event) {
