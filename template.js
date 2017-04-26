@@ -41,7 +41,7 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 			three_data[2][0]="";
 			three_data[2][1]="";
 			three_data[2][2]="";
-			Actions(three_data, ActionsData, (data) => {
+			Actions(three_data, ActionsData, (BusData) => {
 				callback(data);
 			});
 			//template_all(data,i);
@@ -53,7 +53,7 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 			three_data[i%3][1]=data[i][1];
 			three_data[i%3][2]=data[i][2];
 			if (i%3==2) {
-				Actions(three_data, ActionsData, (data) => {
+				Actions(three_data, ActionsData, (BusData) => {
 			});
 			}
 			else if (data.length-1==i) {
@@ -64,8 +64,8 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 					three_data[2-j][1]="";
 					three_data[2-j][2]="";
 				}
-				Actions(three_data, ActionsData, (data) => {
-					callback(data);
+				Actions(three_data, ActionsData, (BusData) => {
+					callback(BusData);
 			});
 			}
 		}
@@ -90,17 +90,19 @@ const Template = (BusId, callback) => {
 	};
 
 	stopdata.busgetdata(BusId, (data) => {
-		ActionsAll(data, 0, ActionsData, (data) => {
-			callback(data);
+		ActionsAll(data, 0, ActionsData, (BusData) => {
+			callback(BusData);
 		});
 	});
 };
 
 
-var BusId = '139-FT';
-Template(BusId, (data) => {
+//var BusId = '139-FT';
+exports.Template=Template;
+
+/*Template(BusId, (data) => {
 	console.log(data);
-});
+});*/
 
 
 
