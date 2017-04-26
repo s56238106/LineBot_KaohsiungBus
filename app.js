@@ -33,7 +33,7 @@ bot.on('message', function (event) {
 		case 'text':
 				busID = event.message.text;
 				event.source.profile().then(function (profile) {
-					user = profile.userId;
+					User = profile.userId;
 				});
                 template.Template(busID, (BusData) => {
                     console.log(JSON.stringify(BusData));
