@@ -1,10 +1,10 @@
 /*jshint esversion: 6 */
 var data = require('./catch.js');
 
-const TimingRemind = (busID, stopUID) => {
+const TimingRemind = (busID, stopUID, callback) => {
 	data.BusGetTime(busID, stopUID, (data) => {
 		if(data <= 180){
-			console.log('請準備下車');
+			callback('請準備下車');
 		}
 	});
 };

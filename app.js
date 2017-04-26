@@ -14,14 +14,17 @@ const bot = linebot({
 });
 
 var busID = '';
-var stopUID = "";
-
+var stopUID = '';
+var User = ''
 
 var rule = new schedule.RecurrenceRule();
 rule.second = 0;
 schedule.scheduleJob(rule, function(){
-	if(busID!= '' && stopUID!=''){
-		TimingRemind.TimingRemind(busID,stopUID);
+	if(busID!= '' && stopUID!='' && User !=''){
+		TimingRemind.TimingRemind(busID, stopUID, (data) => {
+			bot.push(User, data);
+			console.log(User + data);
+		});
 	}
 });
 //bot action
@@ -29,6 +32,9 @@ bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
 				busID = event.message.text;
+				event.source.profile().then(function (profile) {
+					user = profile.userId;
+				});
                 template.Template(busID, (BusData) => {
                     console.log(JSON.stringify(BusData));
                 	event.reply(BusData);
@@ -38,7 +44,7 @@ bot.on('message', function (event) {
 });
 
 bot.on('postback', function (event) {
-	event.reply('postback: ' + event.postback.data);
+	console.log(User + '  remind  ' + event.postback.data);
 	stopUID = event.postback.data;
 });
 
