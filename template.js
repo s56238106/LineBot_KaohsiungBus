@@ -1,26 +1,34 @@
 /*jshint esversion: 6 */
 
 var stopdata = require('./catch.js');
-var one_template = JSON.stringify(require('./template.json'));
+var OneTemplate = JSON.stringify({
+  "thumbnailImageUrl": "https://example.com/bot/images/item1.jpg",
+  "title": "this is menu",
+  "text": "description",
+  "actions": [
+  ]
+});
 
 
 //丟DATA進ACTION
-const template = (data) =>{
-	var one_template_temp = JSON.parse(one_template);
+const Actions = (data, ActionsData, callback) =>{
+	var one_template_temp = JSON.parse(OneTemplate);
 	for(var i=0 ; i<data.length ; i++){
 		one_template_temp.actions.push(
 			{type : 'postback' ,label : data[i][0] + data[i][2] ,data : data[i][1]}
 		);
 	}
-	console.log(one_template_temp);
+	ActionsData.template.columns.push(one_template_temp);
+	callback(ActionsData);
 };
 
 
 //資料比數邏輯判斷
-const template_all = (data, num) =>{
+const ActionsAll = (data, num, ActionsData, callback) =>{
+
 	var three_data = [];
 	for (var i = num; i < data.length; i++) {
-		if (i%12==0 && i!=num) {
+		if ((i%12==0) && (i!=num)) {
 			three_data[0]=[];
 			three_data[0][0]="後";
 			three_data[0][1]=i;
@@ -33,7 +41,9 @@ const template_all = (data, num) =>{
 			three_data[2][0]="";
 			three_data[2][1]="";
 			three_data[2][2]="";
-			template(three_data);
+			Actions(three_data, ActionsData, (data) => {
+				callback(data);
+			});
 			//template_all(data,i);
 			break;
 		}
@@ -43,7 +53,8 @@ const template_all = (data, num) =>{
 			three_data[i%3][1]=data[i][1];
 			three_data[i%3][2]=data[i][2];
 			if (i%3==2) {
-				template(three_data);
+				Actions(three_data, ActionsData, (data) => {
+			});
 			}
 			else if (data.length-1==i) {
 				var count=i%3;
@@ -53,24 +64,48 @@ const template_all = (data, num) =>{
 					three_data[2-j][1]="";
 					three_data[2-j][2]="";
 				}
-				template(three_data);
+				Actions(three_data, ActionsData, (data) => {
+					callback(data);
+			});
 			}
-			
 		}
 	}
 };
 
+
+
+
+
+
+
 //線上測試
-/*var bus =stopdata.busgetdata('137-FT',(data) => {
-	template_all(data,48);
-	for (var i = 0; i < data.length; i++) {
-		console.log(data[i]);
-	}
-	
-});*/
+const Template = (BusId, callback) => {
+	var ActionsData = {
+		"type": "template",
+		"altText": "this is a carousel template",
+		"template": {
+			"type": "carousel",
+			"columns": []
+		}
+	};
+
+	stopdata.busgetdata(BusId, (data) => {
+		ActionsAll(data, 0, ActionsData, (data) => {
+			callback(data);
+		});
+	});
+};
+
+
+var BusId = '139-FT';
+Template(BusId, (data) => {
+	console.log(data);
+});
+
+
 
 //JSON測試
-var bus = require('./testbus.json');
+/*var bus = require('./testbus.json');
 
 var aa = [];
 for (var i = 0; i < bus.length; i++) {
@@ -80,4 +115,8 @@ for (var i = 0; i < bus.length; i++) {
 	aa[i][2]=bus[i].EstimateTime;
 	
 }
-template_all(aa, 12);
+var ActionsData = [];
+ActionsAll(aa, 0);
+for(var i = 0 ; i<ActionsData.length ; i++){
+	console.log(ActionsData[i]);
+}*/
