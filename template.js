@@ -95,28 +95,3 @@ const Template = (BusId, callback) => {
 };
 
 exports.Template=Template;
-
-/*var BusId = '137-FT';
-
-Template(BusId, (data) => {
-	console.log(data);
-});*/
-
-
-
-//JSON測試
-/*var bus = require('./testbus.json');
-
-var aa = [];
-for (var i = 0; i < bus.length; i++) {
-	aa[i]=[];
-	aa[i][0]=bus[i].StopName.Zh_tw;
-	aa[i][1]=bus[i].StopUID;
-	aa[i][2]=bus[i].EstimateTime;
-	
-}
-var ActionsData = [];
-ActionsAll(aa, 0);
-for(var i = 0 ; i<ActionsData.length ; i++){
-	console.log(ActionsData[i]);
-}*/
