@@ -30,7 +30,7 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 		if ((i%12==0) && (i!=num)) {
 			three_data[0]=[];
 			three_data[0][0]="後";
-			three_data[0][1]=i;
+			three_data[0][1]=i+"";
 			three_data[0][2]=data.length-i+"筆";
 			three_data[1]=[];
 			three_data[1][0]="";
