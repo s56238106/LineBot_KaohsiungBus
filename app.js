@@ -30,7 +30,8 @@ bot.on('message', function (event) {
 		case 'text':
 				busID = event.message.text;
                 template.Template(busID, (BusData) => {
-                    event.reply(JSON.stringify(BusData));
+                    console.log(JSON.stringify(BusData));
+                	event.reply(BusData);
                 });
 			break;
     }

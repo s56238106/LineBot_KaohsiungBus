@@ -15,7 +15,7 @@ const Actions = (data, ActionsData, callback) =>{
 	var one_template_temp = JSON.parse(OneTemplate);
 	for(var i=0 ; i<data.length ; i++){
 		one_template_temp.actions.push(
-			{type : 'postback' ,label : data[i][0] + '(剩下' + data[i][2] + '秒)',data : data[i][1]}
+			{type : 'postback' ,label : data[i][0] + data[i][2],data : data[i][1]}
 		);
 	}
 	ActionsData.template.columns.push(one_template_temp);
