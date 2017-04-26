@@ -622,29 +622,5 @@
     "NextBusTime": "2017-04-25T00:17:00+08:00",
     "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
     "UpdateTime": "2017-04-25T23:29:21+08:00"
-  },
-  {
-    "PlateNumb": "139-FT",
-    "StopUID": "KHH5405",
-    "StopID": "5405",
-    "StopName": {
-      "Zh_tw": "左營南站"
-    },
-    "RouteUID": "KHH6",
-    "RouteID": "6",
-    "RouteName": {
-      "Zh_tw": "6"
-    },
-    "SubRouteUID": "KHH6",
-    "SubRouteID": "6",
-    "SubRouteName": {
-      "Zh_tw": "6"
-    },
-    "Direction": 1,
-    "EstimateTime": 2220,
-    "MessageType": 0,
-    "NextBusTime": "2017-04-25T00:18:00+08:00",
-    "SrcUpdateTime": "2017-04-25T23:28:57+08:00",
-    "UpdateTime": "2017-04-25T23:29:21+08:00"
   }
 ]
