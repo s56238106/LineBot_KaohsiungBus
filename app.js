@@ -17,10 +17,9 @@ var stopUID = "";
 bot.on('message', function (event) {
     switch (event.message.type) {
 		case 'text':
-            event.reply("data");
-            /*Template(busID, (data) => {
+            Template(busID, (data) => {
                 event.reply(data);
-            });*/
+            });
 		  /*  var bus =data.busgetdata(busID,(data) => {
 				var num = -1;
 				for (var i = 0; i < data.length; i++) {
