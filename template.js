@@ -92,7 +92,7 @@ const Template = (BusId, callback) => {
 	stopdata.busgetdata(BusId, (data) => {
 		ActionsAll(data, 0, ActionsData, (BusData) => {
 			callback(BusData);
-			console.log(BusData);
+			console.log("BusData");
 		});
 	});
 };
