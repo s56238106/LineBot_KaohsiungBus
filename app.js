@@ -10,7 +10,7 @@ const bot = linebot({
 	channelAccessToken: 'HgmqnvzXuSTtXjB/3yiI0TRFOD2JWImFRFhHavnhGvBLfTeDzBdEREYYWb+oT8zsTfxIBvP4JHHT8kQP853zcJ870pGvKDyKc+zi4cd3ebkitUY8xUa9dkFpIjDjvdNXO5AfquvILjUZ2FLxSluXrwdB04t89/1O/w1cDnyilFU='
 });
 
-var busID = '139-FT';
+var busID = '137-FT';
 var stopUID = "";
 
 //bot action
