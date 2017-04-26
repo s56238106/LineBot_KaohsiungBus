@@ -30,7 +30,6 @@ bot.on('message', function (event) {
 				console.log(busID);
                 template.Template(busID, (BusData) => {
                     event.reply(BusData);
-					console.log(busID);
 					console.log(BusData);
                 });
 			break;
