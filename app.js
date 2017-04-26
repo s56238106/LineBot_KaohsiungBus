@@ -33,9 +33,8 @@ bot.on('message', function (event) {
 				}else{
 		    		event.reply("not found:404");
 				}
-		    });*/
-		    event.reply(a);
-
+		    });
+		    event.reply(a);*/
 			break;
     }
 });
