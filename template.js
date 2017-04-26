@@ -33,13 +33,13 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 			three_data[0][1]=i+"";
 			three_data[0][2]=data.length-i+"筆";
 			three_data[1]=[];
-			three_data[1][0]="";
-			three_data[1][1]="";
-			three_data[1][2]="";
+			three_data[1][0]="NULL";
+			three_data[1][1]="NULL";
+			three_data[1][2]="NULL";
 			three_data[2]=[];
-			three_data[2][0]="";
-			three_data[2][1]="";
-			three_data[2][2]="";
+			three_data[2][0]="NULL";
+			three_data[2][1]="NULL";
+			three_data[2][2]="NULL";
 			Actions(three_data, ActionsData, (BusData) => {
 				callback(BusData);
 			});
@@ -59,9 +59,9 @@ const ActionsAll = (data, num, ActionsData, callback) =>{
 				var count=i%3;
 				for (var j = 0; j < count; j++) {
 					three_data[2-j]=[];
-					three_data[2-j][0]="";
-					three_data[2-j][1]="";
-					three_data[2-j][2]="";
+					three_data[2-j][0]="NULL";
+					three_data[2-j][1]="NULL";
+					three_data[2-j][2]="NULL";
 				}
 				Actions(three_data, ActionsData, (BusData) => {
 					callback(BusData);
