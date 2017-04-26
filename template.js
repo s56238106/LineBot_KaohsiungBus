@@ -25,7 +25,6 @@ const Actions = (data, ActionsData, callback) =>{
 
 //資料比數邏輯判斷
 const ActionsAll = (data, num, ActionsData, callback) =>{
-			console.log("3");
 	var three_data = [];
 	for (var i = num; i < data.length; i++) {
 		if ((i%12==0) && (i!=num)) {
@@ -88,11 +87,10 @@ const Template = (BusId, callback) => {
 			"columns": []
 		}
 	};
-			console.log("1");
 	stopdata.busgetdata(BusId, (data) => {
 		ActionsAll(data, 0, ActionsData, (BusData) => {
 			callback(BusData);
-			console.log("2");
+			console.log(BusData);
 		});
 	});
 };
