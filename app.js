@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 const linebot = require('linebot');
 var data = require('./catch.js');
-var a = require ('./temp.json');
+var template = require('./template.js');
 
 //bot connection
 const bot = linebot({
