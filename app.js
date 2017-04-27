@@ -24,6 +24,9 @@ schedule.scheduleJob(rule, function(){
 		TimingRemind.TimingRemind(busID, stopUID, (data) => {
 			bot.push(User, data);
 			console.log(User + data);
+			busID = '';
+			stopUID = '';
+			User = '';
 		});
 	}
 });
@@ -46,6 +49,7 @@ bot.on('message', function (event) {
 bot.on('postback', function (event) {
 	console.log(User + '  remind  ' + event.postback.data);
 	stopUID = event.postback.data;
+	event.reply('提醒設定成功');
 });
 
 bot.listen('/linewebhook', process.env.PORT || 80, function () {
